@@ -20,11 +20,11 @@ console.log(età);
 1-  Il prezzo varia in base ai km = 0.21€ al km.
 Quindi: km x 0.21€
 */
-
+if(età > 18 < 65) {
 let prezzo = km * 0.21;
 let prezzod = prezzo.toFixed(2);
 console.log(prezzod + '€'); //string
-
+}
 
 
 /*2- Applicare sconto del 20% per i minorenni*/
@@ -44,3 +44,7 @@ if(età >= 65) {
 }
 
 /*STAMPARE il prezzo finale del biglietto con massimo due decimali per i centesimi*/
+// usare method: num.fixed()
+
+
+// stampare su index.html il prezzo in tag <p>
